@@ -12,7 +12,7 @@ function Home() {
     <div>
       <Header />
       <ExploreProduct category={category} setCategory={setCategory} />
-      <ProductDisplay category={categor} />
+      <ProductDisplay category={category} />
       <AppDownload />
     </div>
   );
